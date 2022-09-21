@@ -76,6 +76,8 @@ $objQrcode = new QrCode($payload);
 $qrcode = (new Output\Png)->output($objQrcode, 400);
 ```
 
+<img src="/example/example1.png" alt="exemple1"/>
+
 ## Contributing
 
 Please see [CONTRIBUTING](https://github.com/brunobmorais/php-pix/blob/master/CONTRIBUTING.md) for details.
