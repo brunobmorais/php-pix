@@ -1,0 +1,34 @@
+{
+  "name": "bmorais/pix",
+  "description": "Utilização do PIX em PHP",
+  "keywords": [
+    "Database",
+    "PDO",
+    "Save",
+    "Delete",
+    "Destroy",
+    "CRUD"
+  ],
+  "homepage": "https://www.bmorais.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruno Morais",
+      "email": "contato@bmorais.com",
+      "homepage": "https://github.com/brunobmorais",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BMorais\\Pix\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "mpdf/qrcode": "^1.2",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  }
+}
