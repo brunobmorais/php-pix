@@ -1,12 +1,12 @@
 # Pix @BMoraisCode
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@brunobmorais-blue.svg?style=flat-square)](https://linkedin.com/in/brunobmorais)
-[![Source Code](http://img.shields.io/badge/source-bmorais/pix-blue.svg?style=flat-square)](https://github.com/brunobmorais/database)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/bmorais/pix.svg?style=flat-square)](https://packagist.org/packages/bmorais/database)
-[![Latest Version](https://img.shields.io/github/release/brunobmorais/php-pix.svg?style=flat-square)](https://github.com/brunobmorais/database/releases)
+[![Source Code](http://img.shields.io/badge/source-bmorais/pix-blue.svg?style=flat-square)](https://github.com/brunobmorais/php-pix)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/bmorais/pix.svg?style=flat-square)](https://packagist.org/packages/bmorais/pix)
+[![Latest Version](https://img.shields.io/github/release/brunobmorais/php-pix.svg?style=flat-square)](https://github.com/brunobmorais/php-pix/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Quality Score](https://img.shields.io/scrutinizer/g/brunobmorais/php-pix.svg?style=flat-square)](https://scrutinizer-ci.com/g/brunobmorais/php-database)
-[![Total Downloads](https://img.shields.io/packagist/dt/bmorais/pix.svg?style=flat-square)](https://packagist.org/packages/bmorais/database)
+[![Quality Score](https://img.shields.io/scrutinizer/g/brunobmorais/php-pix.svg?style=flat-square)](https://scrutinizer-ci.com/g/brunobmorais/php-pix)
+[![Total Downloads](https://img.shields.io/packagist/dt/bmorais/pix.svg?style=flat-square)](https://packagist.org/packages/bmorais/pix)
 
 ###### **Pix** is the newest electronic payment method created by **Banco Central do Brasil**. You can find all the details on the [official page](https://www.bcb.gov.br/estabilidadefinanceira/pix) of Pix
 
