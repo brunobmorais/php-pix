@@ -2,6 +2,16 @@
 
 namespace BMorais\Pix;
 
+/**
+ * CLASSE PIX
+ *  Esta classe é responsavel por gerar o pix
+ *
+ * @author Bruno Morais <contato@bmorais.com>
+ * @copyright GPL © 2022, bmorais.com
+ * @package bmorais\pix
+ * @subpackage class
+ * @access private
+ */
 class Pix {
 
   /**
