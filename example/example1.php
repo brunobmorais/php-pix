@@ -16,10 +16,9 @@ $defaultTxid = "IDUNICO";
 $order = "";
 $amount = "100,00";
 
+$pix = new Pix();
 // Instancia principal do payload Pix
-$obPayload =
-    (new Pix)
-        ->setPixKey($defaultPíxKey)
+$obPayload = $pix->setPixKey($defaultPíxKey)
         ->setDescription($defaultDescription . $order)
         ->setMerchantName($defaultMerchantName)
         ->setMerchantCity($defaultMerchantCity)
@@ -28,10 +27,7 @@ $obPayload =
 
 // Código de pagamento Pix
 $payload = $obPayload->getPayload();
-// Instancia do Qr Code
-$objQrcode = new QrCode($payload);
-// Imagem do Qr Code
-$qrcode = (new Output\Png)->output($objQrcode, 400);
+$qrcode = $pix->qrcode($payload,400)
 
 ?>
 

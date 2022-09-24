@@ -2,6 +2,9 @@
 
 namespace BMorais\Pix;
 
+use Mpdf\QrCode\Output;
+use Mpdf\QrCode\QrCode;
+
 /**
  * CLASSE PIX
  *  Esta classe é responsavel por gerar o pix
@@ -123,8 +126,6 @@ class Pix {
      * @return $this
      */
   public function setAmount($amount) {
-      $amount = str_replace('.', '', $amount);
-      $amount = str_replace(',', '.', $amount);
       $this->amount = number_format($amount, 2, ',', '.');
     return $this;
   }
@@ -220,5 +221,16 @@ class Pix {
 
     // Retorna o payload + CRC16
     return $payload.$this->getCRC16($payload);
+  }
+
+    /**
+     * @param $payload
+     * @param $size
+     * @return string
+     * @throws \Mpdf\QrCode\QrCodeException
+     */
+  public function qrcode($payload, $size=400){
+      $objQrcode = new QrCode($payload);
+      return (new Output\Png)->output($objQrcode, $size);
   }
 }
