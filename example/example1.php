@@ -2,8 +2,6 @@
 require dirname(__DIR__, 1) . '/vendor/autoload.php';
 
 use BMorais\Pix\Pix;
-use Mpdf\QrCode\QrCode;
-use Mpdf\QrCode\Output;
 
 
 /** VALORES PIX */
@@ -27,7 +25,7 @@ $obPayload = $pix->setPixKey($defaultPíxKey)
 
 // Código de pagamento Pix
 $payload = $obPayload->getPayload();
-$qrcode = $pix->qrcode($payload,400)
+$qrcode = $pix->qrcode($payload,400);
 
 ?>
 
