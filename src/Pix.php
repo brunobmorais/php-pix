@@ -126,8 +126,8 @@ class Pix {
      * @return $this
      */
   public function setAmount($amount) {
-      $this->amount = number_format($amount, 2, ',', '.');
-    return $this;
+      $this->amount = $amount;
+      return $this;
   }
 
   /**
